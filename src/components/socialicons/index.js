@@ -23,7 +23,7 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.kaggle && (
           <li>
-            <a href={socialprofils.linkedin}>
+            <a href={socialprofils.kaggle}>
               <FaKaggle />
             </a>
           </li>

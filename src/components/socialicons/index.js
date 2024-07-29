@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaKaggle } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
 export const Socialicons = (params) => {
@@ -18,6 +18,13 @@ export const Socialicons = (params) => {
           <li>
             <a href={socialprofils.linkedin}>
               <FaLinkedin />
+            </a>
+          </li>
+        )}
+        {socialprofils.kaggle && (
+          <li>
+            <a href={socialprofils.linkedin}>
+              <FaKaggle />
             </a>
           </li>
         )}

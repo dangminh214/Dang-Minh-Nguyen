@@ -19,21 +19,27 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "Some words about me: ",
   aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    "I am a passionate student with coding. I code everytime and always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal projects as well. In summary, I am a willing student who is passionate about machine learning and web development. ",
 };
 const worktimeline = [
   {
     jobtitle: "Working Student Frontend",
     where: "ALTER | HTV Gmbh",
     date: "2023 - 2024",
+    technicalStack: "Javascript, MySQL",
+    description:
+      "As a working student, I haver responsibilities to competently perform the role of a developer, specializing in database administration and the development of macros and front-end business logic.",
   },
 ];
 
 const skills = [
   {
     name: "Javascript",
+  },
+  {
+    name: "Typescript",
   },
   {
     name: "ReactJS",
@@ -45,23 +51,13 @@ const skills = [
     name: "Python",
   },
   {
+    name: "Java",
+  },
+  {
     name: "MongoDB",
   },
   {
     name: "SQL",
-  },
-];
-
-const services = [
-  {
-    title: "UI & UX Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-  {
-    title: "Wordpress Design",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
 ];
 
@@ -118,6 +114,7 @@ const contactConfig = {
 const socialprofils = {
   github: "https://github.com/dangminh214",
   linkedin: "https://www.linkedin.com/in/dang-minh-nguyen-b61892155/",
+  kaggle: "https://www.kaggle.com/dangminh214",
 };
 export {
   meta,
@@ -125,7 +122,6 @@ export {
   dataportfolio,
   worktimeline,
   skills,
-  services,
   introdata,
   contactConfig,
   socialprofils,

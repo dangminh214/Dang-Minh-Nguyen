@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext, socialprofils } from "../content_option";
-import Themetoggle from "../components/themetoggle";
+import { logotext, socialprofils } from "../../content_option";
+import Themetoggle from "../themetoggle";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -38,14 +38,25 @@ const Headermain = () => {
                       Home
                     </Link>
                   </li>
+
                   <li className="menu_item">
                     <Link
                       onClick={handleToggle}
-                      to="/portfolio"
+                      to="/workexperiences"
                       className="my-3"
                     >
                       {" "}
-                      Portfolio
+                      Work Experiences
+                    </Link>
+                  </li>
+                  <li className="menu_item">
+                    <Link
+                      onClick={handleToggle}
+                      to="/projects"
+                      className="my-3"
+                    >
+                      {" "}
+                      My Projects
                     </Link>
                   </li>
                   <li className="menu_item">
@@ -59,9 +70,9 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
-              <a href={socialprofils.facebook}>Facebook</a>
+              <a href={socialprofils.linkedin}>Linkedin</a>
               <a href={socialprofils.github}>Github</a>
-              <a href={socialprofils.twitter}>Twitter</a>
+              <a href={socialprofils.kaggle}>Kaggle</a>
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>

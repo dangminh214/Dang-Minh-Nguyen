@@ -34,27 +34,21 @@ const worktimeline = [
 const skills = [
   {
     name: "Javascript",
-    value: 80,
   },
   {
     name: "ReactJS",
-    value: 60,
   },
   {
     name: "NodeJS",
-    value: 60,
   },
   {
     name: "Python",
-    value: 90,
   },
   {
     name: "MongoDB",
-    value: 60,
   },
   {
     name: "SQL",
-    value: 60,
   },
 ];
 
@@ -98,43 +92,6 @@ const dataportfolio = [
   },
   {
     img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import { Container, Row, Col } from "react-bootstrap";
-import { dataabout, meta, skills } from "../../content_option";
+import { Row, Col } from "react-bootstrap";
+import { skills } from "../../content_option";
 
 export const Skills = (data) => {
   return (
@@ -15,7 +15,6 @@ export const Skills = (data) => {
             {skills.map((data, i) => {
               return (
                 <tr key={i}>
-                  {console.log(data)}
                   <th scope="row"></th>
                   <td>{data.name}</td>
                 </tr>

@@ -14,11 +14,16 @@ export const WorkingExperiences = (data) => {
           <tbody>
             {worktimeline.map((data, i) => {
               return (
-                <tr key={i}>
-                  <th scope="row">{data.jobtitle}</th>
-                  <td>{data.where}</td>
-                  <td>{data.description}</td>
-                </tr>
+                <div key={i}>
+                  <tr>
+                    <th scope="row" className="p-3">
+                      {data.jobtitle}
+                    </th>
+                    <td className="p-3">{data.where}</td>
+                    <td>{data.date}</td>
+                  </tr>
+                  <p className="text-white">{data.description}</p>
+                </div>
               );
             })}
           </tbody>

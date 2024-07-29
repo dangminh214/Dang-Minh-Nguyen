@@ -80,7 +80,6 @@ const Headermain = () => {
               <a href={socialprofils.github}>Github</a>
               <a href={socialprofils.kaggle}>Kaggle</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
         </div>
       </header>

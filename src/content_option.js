@@ -28,7 +28,7 @@ const worktimeline = [
     jobtitle: "Working Student Frontend",
     where: "ALTER | HTV Gmbh",
     date: "2023 - 2024",
-    technicalStack: "Javascript, MySQL",
+    technicalStack: "Javascript, MySQL, FontmaticUI",
     description:
       "As a working student, I haver responsibilities to competently perform the role of a developer, specializing in database administration and the development of macros and front-end business logic.",
   },

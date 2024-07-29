@@ -10,7 +10,7 @@ const introdata = {
   title: "I’m Dang Minh Nguyen",
   animated: {
     first: "I love coding",
-    second: "I am trying to code cool websites",
+    second: "I am trying to create awesomes websites",
     third: "My dream is working as a fullstack developer",
   },
   description:

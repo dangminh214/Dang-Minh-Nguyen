@@ -64,6 +64,7 @@ const skills = [
 
 const dataportfolio = [
   {
+    name: "SteamFlipCalc",
     img: steamFlipCalcImg,
     description:
       "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
@@ -73,6 +74,7 @@ const dataportfolio = [
     linkGithub: "https://github.com/quantanhoi/SteamFlipCalc",
   },
   {
+    name: "Tour Website",
     img: tourImg,
     description:
       "My fullstack project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
@@ -82,6 +84,7 @@ const dataportfolio = [
     linkGithub: "https://github.com/dangminh214/Tour-Website-Fullstack",
   },
   {
+    name: "Project Managment App",
     img: projectMangamentImg,
     description:
       "Efficient project management as well as the assignment and tracking of corresponding tasks.",
@@ -90,6 +93,7 @@ const dataportfolio = [
     linkGithub: "https://github.com/dangminh214/Project-Management-App",
   },
   {
+    name: "Count Down Challenge",
     img: countDownChanllengeImg,
     description: "Challenge to stop the countdown within an exact time period.",
     link: "https://countdown-challenge-website-using-react-refs-and-portal.vercel.app/",

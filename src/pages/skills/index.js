@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Row, Col } from "react-bootstrap";
-import { skills } from "../../content_option";
+import { skills } from "../../contents";
 
 const formatCategoryName = (name) => {
   if (name === "VersionControl") {

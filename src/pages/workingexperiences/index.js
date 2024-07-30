@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { Row, Col } from "react-bootstrap";
-import { worktimeline } from "../../content_option";
+import { worktimeline } from "../../contents";
 
 export const WorkingExperiences = (data) => {
   return (

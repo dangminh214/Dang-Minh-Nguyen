@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataabout, meta } from "../../content_option";
+import { dataabout, meta } from "../../contents";
 
 export const About = () => {
   return (

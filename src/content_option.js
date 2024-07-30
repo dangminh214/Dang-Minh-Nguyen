@@ -36,28 +36,25 @@ const worktimeline = [
 
 const skills = [
   {
-    name: "Javascript",
+    ProgrammingLanguages: ["Javascript", "Typescript", "Python", "Java"],
   },
   {
-    name: "Typescript",
+    Framework: ["ReactJS", "NodeJS", "TensorFlow"],
   },
   {
-    name: "ReactJS",
+    Database: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
-    name: "NodeJS",
+    Libraries: ["Matplotlib", "Scitkit - Learn", "Numpy", "Pandas"],
   },
   {
-    name: "Python",
+    VersionControl: ["Git", "Github"],
   },
   {
-    name: "Java",
+    Others: ["Postman", "Docker", "Jupyter Notebook"],
   },
   {
-    name: "MongoDB",
-  },
-  {
-    name: "SQL",
+    Languages: ["English", "German (C1)"],
   },
 ];
 

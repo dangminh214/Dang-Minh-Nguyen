@@ -17,7 +17,12 @@ export const Skills = () => {
               const categorySkills = category[categoryName];
               return (
                 <tr key={i}>
-                  <th scope="row">{categoryName}</th>
+                  {categoryName === "ProgrammingLanguages" ? (
+                    <th scope="row">{"Programming Languages"}</th>
+                  ) : (
+                    <th scope="row">{categoryName}</th>
+                  )}
+
                   <td>
                     {categorySkills.map((skill, j) => (
                       <span key={j} className="skill-badge">

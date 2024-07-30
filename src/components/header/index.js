@@ -79,6 +79,7 @@ const Headermain = () => {
               <a href={socialprofils.linkedin}>Linkedin</a>
               <a href={socialprofils.github}>Github</a>
               <a href={socialprofils.kaggle}>Kaggle</a>
+              <a href={socialprofils.email}>E - Mail</a>
             </div>
           </div>
         </div>

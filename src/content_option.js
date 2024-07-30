@@ -99,6 +99,8 @@ const socialprofils = {
   github: "https://github.com/dangminh214",
   linkedin: "https://www.linkedin.com/in/dang-minh-nguyen-b61892155/",
   kaggle: "https://www.kaggle.com/dangminh214",
+  email:
+    "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKnSlSmfVbdGlGhDmHmDtCPGRcgNhcrwFmhhQZzBcNhdqwDWpbWwPDrhdktNBJjClJFvKn",
 };
 export {
   meta,

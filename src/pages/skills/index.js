@@ -3,6 +3,16 @@ import "./style.css";
 import { Row, Col } from "react-bootstrap";
 import { skills } from "../../content_option";
 
+const formatCategoryName = (name) => {
+  if (name === "VersionControl") {
+    return "Version Control";
+  }
+  if (name === "ProgrammingLanguages") {
+    return "Programming Languages";
+  }
+  return name;
+};
+
 export const Skills = () => {
   return (
     <Row className="sec_sp">
@@ -17,12 +27,7 @@ export const Skills = () => {
               const categorySkills = category[categoryName];
               return (
                 <tr key={i}>
-                  {categoryName === "ProgrammingLanguages" ? (
-                    <th scope="row">{"Programming Languages"}</th>
-                  ) : (
-                    <th scope="row">{categoryName}</th>
-                  )}
-
+                  <th scope="row">{formatCategoryName(categoryName)}</th>
                   <td>
                     {categorySkills.map((skill, j) => (
                       <span key={j} className="skill-badge">

@@ -19,18 +19,20 @@ export const MyProjects = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-3 po_items_ho">
+        <div className="projects-container">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i}>
+              <div key={i} className="project-card">
                 <div className="po_item">
-                  <img src={data.img} alt="" className="project-img" />
+                  <div className="project-img-container">
+                    <img src={data.img} alt="" className="project-img" />
+                  </div>
                   <div className="content">
                     <p>{data.description}</p>
-                    <a href={data.link}>view project</a>
+                    {i !== 0 && <a href={data.link}>view project</a>}
                   </div>
                 </div>
-                <p>{data.technicalStack}</p>
+                <p className="technical-stack">{data.technicalStack}</p>
               </div>
             );
           })}

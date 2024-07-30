@@ -50,6 +50,7 @@
     transition-delay: 1s;
     transition: 0.3s ease;
     font-size: 20px;
+    
 }
 
 .po_item:hover {
@@ -79,8 +80,3 @@
     text-decoration: none;
 }
 
-.project-img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}

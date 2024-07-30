@@ -66,14 +66,15 @@ const dataportfolio = [
   {
     img: tourImg,
     description:
-      "A project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
+      "My fullstack project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
     link: "#",
     technicalStack:
       "Technical Stack: ReactJS, NodeJS, TypeScript, MongoDB, Docker, HTML, CSS",
   },
   {
     img: [steamFlipCalcImg],
-    description: "A Fullstack 4 people group project at HDa.",
+    description:
+      "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
     link: "http://steamflip.fyi/",
     technicalStack:
       "Technical Stack: HTML, CSS,Typescript, ReactJS, NodeJS, MongoDB",
@@ -83,12 +84,11 @@ const dataportfolio = [
     description:
       "Efficient project management as well as the assignment and tracking of corresponding tasks.",
     link: "https://project-management-app-smoky.vercel.app/",
-    technicalStack: "Technical stack: Javascript, ReactJS, TailwindCSS, Vite",
+    technicalStack: "Technical Stack: Javascript, ReactJS, TailwindCSS, Vite",
   },
   {
     img: countDownChanllengeImg,
-    description:
-      "Heausforderung innerhalb einer exakten Zeitspanne den Countdown zu stoppen.",
+    description: "Challenge to stop the countdown within an exact time period.",
     link: "https://countdown-challenge-website-using-react-refs-and-portal.vercel.app/",
     technicalStack: " Technical Stack: ReactJS, HTML, CSS, Vite",
   },

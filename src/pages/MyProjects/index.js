@@ -36,8 +36,7 @@ export const MyProjects = () => {
                   </div>
                 </div>
                 <p className="technical-stack">
-                  Repostiory:{" "}
-                  <a href={data.technicalStack}>{data.linkGithub}</a>
+                  Repostiory: <a href={data.linkGithub}>{data.linkGithub}</a>
                 </p>
                 <p className="technical-stack">{data.technicalStack}</p>
               </div>

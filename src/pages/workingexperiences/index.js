@@ -23,6 +23,9 @@ export const WorkingExperiences = (data) => {
                     <td>{data.date}</td>
                   </tr>
                   <p className="text-white">{data.description}</p>
+                  <p className="text-white">
+                    Technical Stack: {data.technicalStack}
+                  </p>
                 </div>
               );
             })}

@@ -30,7 +30,7 @@ const worktimeline = [
     date: "2023 - 2024",
     technicalStack: "Javascript, MySQL, FontmaticUI",
     description:
-      "As a working student, I haver responsibilities to competently perform the role of a developer, specializing in database administration and the development of macros and front-end business logic.",
+      "As a working student, I have responsibilities to competently perform the role of a developer, specializing in database administration and the development of macros and front-end business logic.",
   },
 ];
 

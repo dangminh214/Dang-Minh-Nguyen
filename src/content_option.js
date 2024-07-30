@@ -1,4 +1,8 @@
 import avatar from "./assets/images/avatar.jpg";
+import steamFlipCalcImg from "./assets/images/Projects/steamflipcalc.png";
+import projectMangamentImg from "./assets/images/Projects/projectmanagment.png";
+import countDownChanllengeImg from "./assets/images/Projects/countdownchallenge.png";
+import tourImg from "./assets/images/Projects/tours.png";
 const logotext = "NGUYEN";
 const meta = {
   title: "Dang Minh Nguyen",
@@ -60,29 +64,33 @@ const skills = [
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description: "A Fullstack project at HDa",
+    img: tourImg,
+    description:
+      "A project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
     link: "#",
+    technicalStack:
+      "Technical Stack: ReactJS, NodeJS, TypeScript, MongoDB, Docker, HTML, CSS",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "A Fullstack 4 people group project at HDa",
+    img: [steamFlipCalcImg],
+    description: "A Fullstack 4 people group project at HDa.",
     link: "http://steamflip.fyi/",
+    technicalStack:
+      "Technical Stack: HTML, CSS,Typescript, ReactJS, NodeJS, MongoDB",
   },
   {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description: "Description of this project 1",
-    link: "#",
+    img: projectMangamentImg,
+    description:
+      "Efficient project management as well as the assignment and tracking of corresponding tasks.",
+    link: "https://project-management-app-smoky.vercel.app/",
+    technicalStack: "Technical stack: Javascript, ReactJS, TailwindCSS, Vite",
   },
   {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "Description of this project 2",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description: "Description of this project 3",
-    link: "#",
+    img: countDownChanllengeImg,
+    description:
+      "Heausforderung innerhalb einer exakten Zeitspanne den Countdown zu stoppen.",
+    link: "https://countdown-challenge-website-using-react-refs-and-portal.vercel.app/",
+    technicalStack: " Technical Stack: ReactJS, HTML, CSS, Vite",
   },
 ];
 

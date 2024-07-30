@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import withRouter from "../hooks/withRouter";
 import { Home } from "../pages/home";
-import { Portfolio } from "../pages/portfolio";
+import { MyProjects } from "../pages/MyProjects";
 import { About } from "../pages/about";
 import { WorkingExperiences } from "../pages/workingexperiences";
 import { Skills } from "../pages/skills";
@@ -23,7 +23,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
       <Routes location={location}>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Portfolio />} />
+        <Route path="/projects" element={<MyProjects />} />
         <Route path="/workexperiences" element={<WorkingExperiences />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="*" element={<Home />} />

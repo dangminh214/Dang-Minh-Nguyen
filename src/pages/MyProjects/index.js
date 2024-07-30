@@ -32,6 +32,10 @@ export const MyProjects = () => {
                     {i !== 1 && <a href={data.link}>view project</a>}
                   </div>
                 </div>
+                <p className="technical-stack">
+                  Repostiory:{" "}
+                  <a href={data.technicalStack}>{data.linkGithub}</a>
+                </p>
                 <p className="technical-stack">{data.technicalStack}</p>
               </div>
             );

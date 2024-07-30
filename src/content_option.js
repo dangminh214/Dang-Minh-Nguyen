@@ -69,7 +69,8 @@ const dataportfolio = [
       "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
     link: "http://steamflip.fyi/",
     technicalStack:
-      "Technical Stack: HTML, CSS,Typescript, ReactJS, NodeJS, MongoDB",
+      "Technical Stack: HTML, CSS, Typescript, ReactJS, NodeJS, MongoDB",
+    linkGithub: "https://github.com/quantanhoi/SteamFlipCalc",
   },
   {
     img: tourImg,
@@ -78,6 +79,7 @@ const dataportfolio = [
     link: "#",
     technicalStack:
       "Technical Stack: ReactJS, NodeJS, TypeScript, MongoDB, Docker, HTML, CSS",
+    linkGithub: "https://github.com/dangminh214/Tour-Website-Fullstack",
   },
   {
     img: projectMangamentImg,
@@ -85,12 +87,15 @@ const dataportfolio = [
       "Efficient project management as well as the assignment and tracking of corresponding tasks.",
     link: "https://project-management-app-smoky.vercel.app/",
     technicalStack: "Technical Stack: Javascript, ReactJS, TailwindCSS, Vite",
+    linkGithub: "https://github.com/dangminh214/Project-Management-App",
   },
   {
     img: countDownChanllengeImg,
     description: "Challenge to stop the countdown within an exact time period.",
     link: "https://countdown-challenge-website-using-react-refs-and-portal.vercel.app/",
     technicalStack: " Technical Stack: ReactJS, HTML, CSS, Vite",
+    linkGithub:
+      "https://github.com/dangminh214/Countdown-Challenge-Website-using-React-Refs-and-Portal-",
   },
 ];
 

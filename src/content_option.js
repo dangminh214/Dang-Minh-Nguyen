@@ -21,7 +21,7 @@ const introdata = {
 const dataabout = {
   title: "Some words about me ",
   aboutme:
-    "I am a passionate student with coding. I code everytime and always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal projects as well. In summary, I am a willing student who is passionate about machine learning and web development. ",
+    "I am a passionate student with coding. I always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal machine learning and fullstack projects as well. In summary, I am a willing student who is passionate about machine learning and web development. ",
 };
 const worktimeline = [
   {

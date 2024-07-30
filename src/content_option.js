@@ -64,20 +64,20 @@ const skills = [
 
 const dataportfolio = [
   {
+    img: steamFlipCalcImg,
+    description:
+      "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
+    link: "http://steamflip.fyi/",
+    technicalStack:
+      "Technical Stack: HTML, CSS,Typescript, ReactJS, NodeJS, MongoDB",
+  },
+  {
     img: tourImg,
     description:
       "My fullstack project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
     link: "#",
     technicalStack:
       "Technical Stack: ReactJS, NodeJS, TypeScript, MongoDB, Docker, HTML, CSS",
-  },
-  {
-    img: [steamFlipCalcImg],
-    description:
-      "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
-    link: "http://steamflip.fyi/",
-    technicalStack:
-      "Technical Stack: HTML, CSS,Typescript, ReactJS, NodeJS, MongoDB",
   },
   {
     img: projectMangamentImg,

@@ -29,7 +29,7 @@ export const MyProjects = () => {
                   </div>
                   <div className="content">
                     <p>{data.description}</p>
-                    {i !== 0 && <a href={data.link}>view project</a>}
+                    {i !== 1 && <a href={data.link}>view project</a>}
                   </div>
                 </div>
                 <p className="technical-stack">{data.technicalStack}</p>

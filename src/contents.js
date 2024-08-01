@@ -15,7 +15,8 @@ const introdata = {
   animated: {
     first: "I love coding",
     second: "I am trying to create awesomes websites",
-    third: "My dream is working as a fullstack developer",
+    third:
+      "My dream is working as a fullstack developer or data engineer/machine learning engineer",
   },
   description:
     "A passionate computer science student at Darmstadt University of Applied Science",

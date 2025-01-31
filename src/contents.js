@@ -30,12 +30,20 @@ const dataabout = {
 };
 const worktimeline = [
   {
-    jobtitle: "Working Student Frontend",
+    jobtitle: "Working Student Software Engineer",
     where: "ALTER | HTV Gmbh",
     date: "2023 - 2024",
     technicalStack: "Javascript, MySQL, FontmaticUI",
     description:
       "As a working student, I have responsibilities to competently perform the role of a developer, specializing in database administration and the development of macros and front-end business logic.",
+  },
+  {
+    jobtitle: "Internship",
+    where: "Continental Engineering Service - Continental AG",
+    date: "10/2024 - 02/2025",
+    technicalStack: "Javascript, Rust, HTML, CSS",
+    description:
+      "I have responsibilities to implement an single web application, which demonstrates data from CANcase (Control Area Network), a device in Automation Field.",
   },
 ];
 

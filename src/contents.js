@@ -1,8 +1,9 @@
 import avatar from "./assets/images/avatar.jpg";
-import steamFlipCalcImg from "./assets/images/Projects/steamflipcalc.png";
+import kaggle from "./assets/images/Projects/kaggle.png";
+/* import steamFlipCalcImg from "./assets/images/Projects/steamflipcalc.png";
 import projectMangamentImg from "./assets/images/Projects/projectmanagment.png";
 import countDownChanllengeImg from "./assets/images/Projects/countdownchallenge.png";
-import tourImg from "./assets/images/Projects/tours.png";
+import tourImg from "./assets/images/Projects/tours.png"; */
 const logotext = "NGUYEN";
 const meta = {
   title: "Dang Minh Nguyen",
@@ -13,10 +14,10 @@ const meta = {
 const introdata = {
   title: "I’m Dang Minh Nguyen",
   animated: {
-    first: "I love coding",
-    second: "I am trying to create awesome websites",
+    first: "Always ready to learn",
+    second: "I am ready for new challenges",
     third:
-      "My dream is working as a fullstack developer or data engineer/machine learning engineer",
+      "My dream is working as a Machine learning engineer",
   },
   description:
     "A passionate computer science student at Darmstadt University of Applied Science",
@@ -26,7 +27,7 @@ const introdata = {
 const dataabout = {
   title: "Some words about me ",
   aboutme:
-    "I am a passionate student with coding. I always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal machine learning and fullstack projects as well. In summary, I am a willing student who is passionate about machine learning and web development. ",
+    "I am a passionate student with coding. I always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal machine learning. In summary, I am a willing student who is passionate about machine learning. ",
 };
 const worktimeline = [
   {
@@ -40,16 +41,16 @@ const worktimeline = [
   {
     jobtitle: "Internship",
     where: "Continental Engineering Service - Continental AG",
-    date: "10/2024 - 02/2025",
-    technicalStack: "Javascript, Rust, HTML, CSS",
+    date: "10/2024 - 03/2025",
+    technicalStack: "Javascript, Python, Rust, HTML, CSS",
     description:
-      "I have responsibilities to implement an single web application, which demonstrates data from CANcase (Control Area Network), a device in Automation Field.",
+      "I have responsibilities to implement a full stack single web application, which demonstrates data from CANcase (Control Area Network), a device in Automation Field. I also implement a python script to simulate the Daten in CANcase",
   },
 ];
 
 const skills = [
   {
-    ProgrammingLanguages: ["Javascript", "Typescript", "Python", "Java"],
+    ProgrammingLanguages: ["Javascript", "Typescript", "Python", "Java", "Rust", "HTML", "CSS", "Rust"],
   },
   {
     Framework: ["ReactJS", "NodeJS", "TensorFlow"],
@@ -67,12 +68,29 @@ const skills = [
     Others: ["Postman", "Docker", "Jupyter Notebook"],
   },
   {
-    Languages: ["English", "German (C1)"],
+    Languages: ["German (C1)", "English"],
   },
 ];
 
 const dataportfolio = [
   {
+    name: "Kaggle Projects",
+    img: kaggle,
+    description:
+      "Different solved problems in Kaggle",
+    /* link: "http://steamflip.fyi/", */
+    description1: "Bike Sharing Demand, ", 
+    description2: "Diabetes Prediction", 
+    description3: "Digits Recognition, MNIST Fashion Recognition, PaperRockScissor Recognition",
+    description4: "House Price Prediction", 
+    description5: "Rohlik Order Forecasting Challenge",
+    description6: "Titanic Prediction, Titanic Spaceship Prediction",
+    description7: "Use of various machine learning algorithms such as Multi-Layer Perceptron (MLP) and Random Forest Regression, Linear Regression, Binary Classification for pattern recognition and prediction.",
+    technicalStack:
+      "Technical Stack: MLP, Pandas, Tensorflow, CNN, Numpy, Jupyter Notebook, Scikit-learn",
+    linkGithub: "https://github.com/dangminh214/Kaggle-Projects",
+  },
+  /* {
     name: "SteamFlipCalc",
     img: steamFlipCalcImg,
     description:
@@ -109,7 +127,7 @@ const dataportfolio = [
     technicalStack: " Technical Stack: ReactJS, HTML, CSS, Vite",
     linkGithub:
       "https://github.com/dangminh214/Countdown-Challenge-Website-using-React-Refs-and-Portal-",
-  },
+  }, */
 ];
 
 const contactConfig = {

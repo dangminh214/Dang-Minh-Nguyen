@@ -10,7 +10,7 @@ export const MyProjects = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> My Projects | {meta.title} </title>
+          <title> Projects | {meta.title} </title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-3 mt-3 pt-md-3">
@@ -32,12 +32,19 @@ export const MyProjects = () => {
                   </div>
                   <div className="content">
                     <p>{data.description}</p>
-                    {i !== 1 && <a href={data.link}>view project</a>}
+                    {i !== 1 && <a href={data.linkGithub}>View</a>}
                   </div>
                 </div>
                 <p className="technical-stack">
                   Repostiory: <a href={data.linkGithub}>{data.linkGithub}</a>
                 </p>
+                <p className="technical-stack">{data.description1}</p>
+                <p className="technical-stack">{data.description2}</p>
+                <p className="technical-stack">{data.description3}</p>
+                <p className="technical-stack">{data.description4}</p>
+                <p className="technical-stack">{data.description5}</p>
+                <p className="technical-stack">{data.description6}</p>
+                <p className="technical-stack">{data.description7}</p>
                 <p className="technical-stack">{data.technicalStack}</p>
               </div>
             );

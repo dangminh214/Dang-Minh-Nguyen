@@ -1,14 +1,13 @@
 import avatar from "./assets/images/avatar.jpg";
 import kaggle from "./assets/images/Projects/kaggle.png";
-/* import steamFlipCalcImg from "./assets/images/Projects/steamflipcalc.png";
-import projectMangamentImg from "./assets/images/Projects/projectmanagment.png";
-import countDownChanllengeImg from "./assets/images/Projects/countdownchallenge.png";
-import tourImg from "./assets/images/Projects/tours.png"; */
+import paperYolo from "./assets/images/Projects/paper-yolo.png"
+import chatbot from "./assets/images/Projects/chatbot.png"
+
 const logotext = "NGUYEN";
 const meta = {
   title: "Dang Minh Nguyen",
   description:
-    "I’m Dang Minh Nguyen - Computer Science Student, currently studying in Darmstadt University of applied science, Germany",
+    "I’m Dang Minh Nguyen - Computer Science Student, currently studying in Technical University Darmstadt, Germany",
 };
 
 const introdata = {
@@ -20,14 +19,14 @@ const introdata = {
       "My dream is working as a Machine learning engineer",
   },
   description:
-    "A passionate computer science student at Darmstadt University of Applied Science",
+    "A passionate computer science student at Technical University Darmstadt, Germany",
   your_img_url: avatar,
 };
 
 const dataabout = {
   title: "Some words about me ",
   aboutme:
-    "I am a passionate student with coding. I always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and develope some personal machine learning. In summary, I am a willing student who is passionate about machine learning. ",
+    "I am a passionate student with coding. I always want to learn new techniques which can be applied in my projects. In my free time I also practice with Machine Learning in Kaggle and implement some personal machine learning projects. In summary, I am a willing student who is passionate about machine learning, specially computer vision. ",
 };
 const worktimeline = [
   {
@@ -44,13 +43,13 @@ const worktimeline = [
     date: "10/2024 - 03/2025",
     technicalStack: "Javascript, Python, Rust, HTML, CSS",
     description:
-      "I have responsibilities to implement a full stack single web application, which demonstrates data from CANcase (Control Area Network), a device in Automation Field. I also implement a python script to simulate the Daten in CANcase",
+      "I have responsibilities to implement a full stack single web application, which demonstrates data from CANcase (Control Area Network), a device in Automation Field. I also implement a python script to simulate the Daten in CANcase. I also implement a python script to simulate the CAN Data for the website",
   },
 ];
 
 const skills = [
   {
-    ProgrammingLanguages: ["Javascript", "Typescript", "Python", "Java", "Rust", "HTML", "CSS", "Rust"],
+    ProgrammingLanguages: ["Javascript", "Typescript", "Python", "Java", "Rust", "HTML", "CSS", "Rust", "C++"],
   },
   {
     Framework: ["ReactJS", "NodeJS", "TensorFlow"],
@@ -68,17 +67,17 @@ const skills = [
     Others: ["Postman", "Docker", "Jupyter Notebook"],
   },
   {
-    Languages: ["German (C1)", "English"],
+    Languages: ["German (C1)", "English", "Vietnamese(Native Language)"],
   },
 ];
 
 const dataportfolio = [
   {
-    name: "Kaggle Projects",
+    name: "Kaggle Machine Learning Projects",
     img: kaggle,
     description:
       "Different solved problems in Kaggle",
-    /* link: "http://steamflip.fyi/", */
+    description0: "MNIST Fashion Recognition", 
     description1: "Bike Sharing Demand, ", 
     description2: "Diabetes Prediction", 
     description3: "Digits Recognition, MNIST Fashion Recognition, PaperRockScissor Recognition",
@@ -90,49 +89,33 @@ const dataportfolio = [
       "Technical Stack: MLP, Pandas, Tensorflow, CNN, Numpy, Jupyter Notebook, Scikit-learn",
     linkGithub: "https://github.com/dangminh214/Kaggle-Projects",
   },
-  /* {
-    name: "SteamFlipCalc",
-    img: steamFlipCalcImg,
+  {
+    name: "Rock Paper Scissor Hand Gesture Recognition",
+    img: paperYolo,
     description:
-      "A fullstack group project of 4 at the university. Build a price comparison website so users can find the right game items ",
-    link: "http://steamflip.fyi/",
+      "Real Time Hand Gesture Recognition using YOLOv11 to detect and classify hand gestures in Rock Paper Scissor using OpenCV and Webcam",
+    description0: "Detects hand gestures on real time", 
+    description1: "Training and apply YOLOv11 on specific dataset", 
     technicalStack:
-      "Technical Stack: HTML, CSS, Typescript, ReactJS, NodeJS, MongoDB",
-    linkGithub: "https://github.com/quantanhoi/SteamFlipCalc",
+      "Technical Stack: Python, OpenCV2, YOLOv11, Jupyter Notebook",
+    linkGithub: "https://github.com/dangminh214/Scissors-Paper-Rock-Gestures-Detection-YOLO",
   },
   {
-    name: "Tour Website",
-    img: tourImg,
+    name: "Ollama Chatbot",
+    img: chatbot,
     description:
-      "My fullstack project in module Advanced Web Developement at HDa. Development of a tour website with destination search function and CRUD system.",
-    link: "#",
+      "A Chatbot using RAG (Reinforcement Agents) and Langchain Splitter to answer questions about a given context.",
+    description0: "Application of AI technologies to create a chatbot based on input data", 
+    description1: "Application of RAG, Langchain Splitter and Embedding for data processing for NLP", 
     technicalStack:
-      "Technical Stack: ReactJS, NodeJS, TypeScript, MongoDB, Docker, HTML, CSS",
-    linkGithub: "https://github.com/dangminh214/Tour-Website-Fullstack",
+      "Python, Ollama, RAG, Langchain, Streamlit",
+    linkGithub: "https://github.com/dangminh214/RAG-Ollama-simple",
   },
-  {
-    name: "Project Managment App",
-    img: projectMangamentImg,
-    description:
-      "Efficient project management as well as the assignment and tracking of corresponding tasks.",
-    link: "https://project-management-app-smoky.vercel.app/",
-    technicalStack: "Technical Stack: Javascript, ReactJS, TailwindCSS, Vite",
-    linkGithub: "https://github.com/dangminh214/Project-Management-App",
-  },
-  {
-    name: "Count Down Challenge",
-    img: countDownChanllengeImg,
-    description: "Challenge to stop the countdown within an exact time period.",
-    link: "https://countdown-challenge-website-using-react-refs-and-portal.vercel.app/",
-    technicalStack: " Technical Stack: ReactJS, HTML, CSS, Vite",
-    linkGithub:
-      "https://github.com/dangminh214/Countdown-Challenge-Website-using-React-Refs-and-Portal-",
-  }, */
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "dangminh214@gmail.com",
-  YOUR_FONE: "+491786175110",
+  YOUR_FONE: "+4915563415964",
   description: "Always ready for your messages",
 };
 

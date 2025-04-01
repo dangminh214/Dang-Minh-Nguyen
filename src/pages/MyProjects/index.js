@@ -32,12 +32,13 @@ export const MyProjects = () => {
                   </div>
                   <div className="content">
                     <p>{data.description}</p>
-                    {i !== 1 && <a href={data.linkGithub}>View</a>}
+                    {<a href={data.linkGithub}>View</a>}
                   </div>
                 </div>
                 <p className="technical-stack">
                   Repostiory: <a href={data.linkGithub}>{data.linkGithub}</a>
                 </p>
+                <p className="technical-stack">{data.description0}</p>
                 <p className="technical-stack">{data.description1}</p>
                 <p className="technical-stack">{data.description2}</p>
                 <p className="technical-stack">{data.description3}</p>

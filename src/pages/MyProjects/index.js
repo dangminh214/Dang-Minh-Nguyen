@@ -26,7 +26,7 @@ export const MyProjects = () => {
                 <p className="project-name">
                   {i + 1}. &nbsp;{data.name}
                 </p>
-                <div className="po_item">
+                {/* <div className="po_item">
                   <div className="project-img-container">
                     <img src={data.img} alt="" className="project-img" />
                   </div>
@@ -34,7 +34,7 @@ export const MyProjects = () => {
                     <p>{data.description}</p>
                     {<a href={data.linkGithub}>View</a>}
                   </div>
-                </div>
+                </div> */}
                 <p className="technical-stack">
                   Repostiory: <a href={data.linkGithub}>{data.linkGithub}</a>
                 </p>
@@ -46,7 +46,7 @@ export const MyProjects = () => {
                 <p className="technical-stack">{data.description5}</p>
                 <p className="technical-stack">{data.description6}</p>
                 <p className="technical-stack">{data.description7}</p>
-                <p className="technical-stack">{data.technicalStack}</p>
+                {/* <p className="technical-stack">{data.technicalStack}</p> */}
               </div>
             );
           })}
